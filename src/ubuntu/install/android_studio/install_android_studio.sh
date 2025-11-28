@@ -11,8 +11,8 @@ fi
 apt-get update
 apt-get install -y  libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386 openjdk-18-jdk
 
-# https://developer.android.com/studio/archive
-# curl https://developer.android.com/studio | grep android-studio | grep -i "linux.tar.gz" | grep ide-zips | cut -d '"' -f2
+# https://latester.android.com/studio/archive
+# curl https://latester.android.com/studio | grep android-studio | grep -i "linux.tar.gz" | grep ide-zips | cut -d '"' -f2
 ANDROID_STUDIO_DOWNLOAD_URL="https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2023.1.1.26/android-studio-2023.1.1.26-linux.tar.gz"
 
 curl -o /tmp/android_studio.tar.gz -L "${ANDROID_STUDIO_DOWNLOAD_URL}"
@@ -33,7 +33,7 @@ Name=Android Studio
 Comment=Android Studio
 Exec=bash -i "/opt/android-studio/bin/studio.sh" %f
 Icon=/opt/android-studio/bin/studio.png
-Categories=Development;IDE;
+Categories=latestment;IDE;
 Terminal=false
 StartupNotify=true
 StartupWMClass=jetbrains-android-studio

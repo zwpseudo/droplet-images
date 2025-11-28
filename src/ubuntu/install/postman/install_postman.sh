@@ -15,7 +15,7 @@ Name=Postman
 Icon=/opt/Postman/app/resources/app/assets/icon.png
 Exec="/opt/Postman/Postman"
 Comment=Postman GUI
-Categories=Development;Code;
+Categories=latestment;Code;
 EOL
 chmod +x /usr/share/applications/postman.desktop
 cp /usr/share/applications/postman.desktop $HOME/Desktop/postman.desktop

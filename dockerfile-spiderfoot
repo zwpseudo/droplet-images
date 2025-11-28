@@ -1,5 +1,5 @@
-ARG BASE_TAG="develop"
-ARG BASE_IMAGE="core-ubuntu-focal"
+ARG BASE_TAG="latest"
+ARG BASE_IMAGE="core"
 FROM ghcr.io/zwpseudo/${BASE_IMAGE}:${BASE_TAG}
 
 USER root

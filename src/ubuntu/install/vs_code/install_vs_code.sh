@@ -17,7 +17,7 @@ chmod +x $HOME/Desktop/code.desktop
 chown 1000:1000 $HOME/Desktop/code.desktop
 rm vs_code.deb
 
-# Conveniences for python development
+# Conveniences for python latestment
 apt-get update
 apt-get install -y python3-setuptools \
                    python3-venv \
